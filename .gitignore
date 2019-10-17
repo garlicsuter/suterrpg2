@@ -2,19 +2,19 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+RPG-Suter/[Ll]ibrary/
+RPG-Suter/[Tt]emp/
+RPG-Suter/[Oo]bj/
+RPG-Suter/[Bb]uild/
+RPG-Suter/[Bb]uilds/
+RPG-Suter/[Ll]ogs/
+RPG-Suter/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
-# /[Aa]ssets/AssetStoreTools*
+# RPG-Suter/[Aa]ssets/AssetStoreTools*
 
 # TextMesh Pro files
 [Aa]ssets/TextMesh*Pro/
@@ -23,7 +23,7 @@
 [Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
-.vs/
+RPG-Suter/.vs/
 
 # Gradle cache directory
 .gradle/
