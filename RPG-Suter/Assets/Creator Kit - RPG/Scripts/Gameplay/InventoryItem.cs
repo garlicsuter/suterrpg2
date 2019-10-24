@@ -9,12 +9,15 @@ namespace RPGM.Gameplay
     /// <summary>
     /// Marks a gameObject as a collectable item.
     /// </summary>
+
+    
     [ExecuteInEditMode]
     [RequireComponent(typeof(SpriteRenderer), typeof(CircleCollider2D))]
     public class InventoryItem : MonoBehaviour
     {
         public int count = 1;
         public Sprite sprite;
+       
 
         GameModel model = Schedule.GetModel<GameModel>();
 
@@ -30,6 +33,8 @@ namespace RPGM.Gameplay
 
         public void OnTriggerEnter2D(Collider2D collider)
         {
+            
+        
             MessageBar.Show($"You collected: {name} x {count}");
             model.AddInventoryItem(this);
             UserInterfaceAudio.OnCollect();
